@@ -1,5 +1,5 @@
 import { Collection as MongoCollection, Db } from 'mongodb';
-import { MongoAdapter } from '../MongoAdapter';
+import { MongoAdapter } from '../../adapters/MongoAdapter';
 
 class EventRepository {
   private db: Db;
